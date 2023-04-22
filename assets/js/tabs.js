@@ -22,7 +22,6 @@ let tab = function () {
 		this.classList.add('is-active');
 		tabName = this.getAttribute('data-tab-name');
 		selectTabContent(tabName);
-
 	}
 
 	function selectTabContent(tabName) {

@@ -13,8 +13,38 @@
     
     
     <div class="wrapper">
+    
         <main class="page">
+            <div class="inform">
+                <div class="info__link"><img src="assets/images/info.jpg" alt="info"></div>
+                <div class="info__buttons">
+                    <button><a href="#" class="info__button info-btn">info</a></button>
+                    <button><a href="game1.html" class="info__button">game 1</a></button>
+                    <button><a href="game2.html" class="info__button">game 2</a></button>
+                    <div class="info__popup">
+                     <div class="tabs">
+                        <nav class="tabs__nav tabs-nav">
+                            <button type="button" class="tabs-nav__item" data-tab-name="tab-1">GAME 1</button>
+                            <button type="button" class="tabs-nav__item" data-tab-name="tab-2">GAME 2</button>
+                            <button type="button" class="tabs-nav__item" data-tab-name="tab-3">european countries</button>
+                        </nav>
+                        <div class="tabs__content">
+                            <div class="tab tab-1">
+                                Turn cards over to match countries flags and make pairs. Test your memory
+                            </div>
+                            <div class="tab tab-2">
+                                it's an ineresting game to learn the capitals of all European countries
+                            </div>
+                            <div class="tab tab-3">
+                                you can find any European country to know some interesting information
+                            </div>
+                        </div>
+                     </div>
+                    </div>
+                </div>
+            </div>
             <section1 class="map">
+    
                 <div class="map__header">
                     <h1>european countries</h1>
                     <input class="search" type="text">
@@ -26,12 +56,16 @@
                         <li><a href="index-germany.html">Germany</a></li>
                         <li><a href="index-france.html">France</a></li>
                         <li><a href="index-italy.html">Italy</a></li>
+                        <li><a href="index-austria.html">Austria</a></li>
+                        <li><a href="index-belgium.html">Belgium</a></li>
+                        <li><a href="index-ireland.html">Ireland</a></li>
                     </ul>
                 </div>
             </section1>
         </main>
     </div>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/tabs.js"></script>
 
 </body>
 </html>
