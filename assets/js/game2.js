@@ -287,7 +287,7 @@ const randomQuestions = (index) => {
     questions.innerHTML = `
     <div class="game-2__question-item">
         <div class="game-2__question">${GAME[index].question}</div>
-        <ul class="answers">${randomAnswers()}</ul>
+        <ul class="answers">${randomAnswers().join('')}</ul>
       </div>`
 };
 
